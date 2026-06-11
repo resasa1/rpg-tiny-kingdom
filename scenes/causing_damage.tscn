@@ -1,0 +1,3 @@
+[gd_scene format=3 uid="uid://daewmpv3ffikc"]
+
+[node name="Causing_damage" type="Area2D" unique_id=360806367]

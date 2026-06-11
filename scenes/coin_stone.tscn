@@ -1,0 +1,74 @@
+[gd_scene format=3 uid="uid://jrxa0ytyjkiy"]
+
+[ext_resource type="Texture2D" uid="uid://cnh4x4nmeuc1h" path="res://assets/Tiny Swords (Free Pack)/Terrain/Resources/Gold/Gold Resource/Gold_Resource_Highlight.png" id="1_6top5"]
+[ext_resource type="Script" uid="uid://q25prx2jwn6e" path="res://scripts/coin_stone.gd" id="1_miq0d"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_miq0d"]
+atlas = ExtResource("1_6top5")
+region = Rect2(0, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_glwdv"]
+atlas = ExtResource("1_6top5")
+region = Rect2(128, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jlpgo"]
+atlas = ExtResource("1_6top5")
+region = Rect2(256, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3trkf"]
+atlas = ExtResource("1_6top5")
+region = Rect2(384, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3sxr0"]
+atlas = ExtResource("1_6top5")
+region = Rect2(512, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_32vyt"]
+atlas = ExtResource("1_6top5")
+region = Rect2(640, 0, 128, 128)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_5lr0h"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_miq0d")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_glwdv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jlpgo")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3trkf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3sxr0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_32vyt")
+}],
+"loop": true,
+"name": &"Coin",
+"speed": 10.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_ejox8"]
+radius = 21.064241
+
+[node name="coin_stone" type="Area2D" unique_id=1589490233]
+collision_mask = 2
+script = ExtResource("1_miq0d")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=75452759]
+position = Vector2(3.0624983, -5)
+scale = Vector2(0.6240234, 0.56933594)
+sprite_frames = SubResource("SpriteFrames_5lr0h")
+animation = &"Coin"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1947403402]
+position = Vector2(2.9999998, -6)
+scale = Vector2(0.33593753, 0.32421878)
+shape = SubResource("CircleShape2D_ejox8")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
