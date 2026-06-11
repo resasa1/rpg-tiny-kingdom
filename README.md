@@ -20,13 +20,13 @@
     </tr>
     <tr>
       <td align="center">2</td>
-      <td><img src="https://s13.gifyu.com/images/bIYam.gif" alt="Enemy Archer" width="50" height="50"></td>
+      <td><img src="https://s13.gifyu.com/images/bIYam.gif" alt="Enemy Archer" width="120" height="50"></td>
       <td><code>enemy_archer.tscn</code> (Archer)</td>
       <td>For now, it just static enemy. No movement list</td>
     </tr>
     <tr>
       <td align="center">3</td>
-      <td><img src="https://s13.gifyu.com/images/bIYaJ.gif" alt="Coin Stone" width="50" height="50"></td>
+      <td><img src="https://s13.gifyu.com/images/bIYaJ.gif" alt="Coin Stone" width="120" height="50"></td>
       <td><code>coin.tscn</code></td>
       <td>Gold Coin, hit coin using player body will increase total coin (press TAB to see total_coin)</td>
     </tr>
