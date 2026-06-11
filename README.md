@@ -14,9 +14,9 @@
   <tbody>
     <tr>
       <td align="center">1</td>
-      <td><img src="https://placehold.co" alt="Player Icon" width="50" height="50"></td>
-      <td><code>CharacterBody2D</code> (Hero)</td>
-      <td>Pemain utama. Dilengkapi script untuk pergerakan 8 arah, animasi transisi, dan sistem <i>combat</i> dasar.</td>
+      <td><img src="https://gifyu.com/image/bIYVe" alt="Player Run" width="50" height="50"></td>
+      <td><code>Player</code> (Warrior)</td>
+      <td>Movement set <code>Up</code> = W, <code>Left</code> = A, <code>Down</code> = S, <code>Right</code> = D <code>Attack</code> = Left click or Q</td>
     </tr>
     <tr>
       <td align="center">2</td>
