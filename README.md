@@ -14,7 +14,7 @@
   <tbody>
     <tr>
       <td align="center">1</td>
-      <td><img src="https://s13.gifyu.com/images/bIYVe.gif" alt="Player Run" width="50" height="50"></td>
+      <td><img src="https://s13.gifyu.com/images/bIYVe.gif" alt="Player Run" width="120" height="auto"></td>
       <td><code>player_warrior.tscn</code> (Warrior)</td>
       <td>Movement set <code>Up</code> = W, <code>Left</code> = A, <code>Down</code> = S, <code>Right</code> = D <code>Attack</code> = Left click or Q</td>
     </tr>
