@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dcep0btrnrbpj"
+path="res://.godot/imported/mamboman-bo-shi-ge-ju-matikanetannhauser.wav-5b94f234d4e3a808e9af784f79f2e266.sample"
+
+[deps]
+
+source_file="res://assets/sound online/mamboman-bo-shi-ge-ju-matikanetannhauser.wav"
+dest_files=["res://.godot/imported/mamboman-bo-shi-ge-ju-matikanetannhauser.wav-5b94f234d4e3a808e9af784f79f2e266.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

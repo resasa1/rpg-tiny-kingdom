@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dy7ewe7dkufke"
+path="res://.godot/imported/top-5-anime-sound-effects-anime-boldbaldy-128k_Hb3E1jGO.wav-7dca7b973b8ad129d0105dc562407cee.sample"
+
+[deps]
+
+source_file="res://assets/sound online/top-5-anime-sound-effects-anime-boldbaldy-128k_Hb3E1jGO.wav"
+dest_files=["res://.godot/imported/top-5-anime-sound-effects-anime-boldbaldy-128k_Hb3E1jGO.wav-7dca7b973b8ad129d0105dc562407cee.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2
